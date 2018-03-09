@@ -16,6 +16,7 @@ public class BaseApplication extends Application{
         super.onCreate();
 
         setTypeface(this);
+        Shared.init(this);
 
     }
 
