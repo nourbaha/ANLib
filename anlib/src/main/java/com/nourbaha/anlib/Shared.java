@@ -11,9 +11,11 @@ import com.orhanobut.hawk.Hawk;
 public class Shared {
 
     public static final String isRegistered = "isRegistered";
-    public static final String isVerified = "isVerified";
+    public static final String isVerified = "isLoggedIn";
+    public static final String isLoggedIn = "isLoggedIn";
     public static final String passport = "passport";
     public static final String tokenFCM = "tokenFCM";
+    public static final String tokenUser = "passport";
     public static final String mobileNumber = "mobileNo";
     public static final String clientPassIV = "clientPassIV";
     public static final String clientPassKey = "clientPassKey";
